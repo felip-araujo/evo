@@ -6,29 +6,18 @@
     
 } 
 
-body{
-    background-color: black;
-}
-
-.head{
- background-color: white; 
- padding: 5vh; 
- display: grid; 
- grid-template-columns: 1fr 1fr;
-} 
-
-.logo{
-    background-color: green;
-}
-
 .menu{
-    background-color: red; 
-}
-
-.list-menu {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;  
-    list-style: none; 
-    font-weight: 800; 
-    color: white;
+    grid-template-columns: 1fr 1fr 1fr; 
+    list-style: none;  
+    background-color: gray; 
+    padding: 2rem;
+    margin-top: -2px;  
+    text-align: center;
 } 
+
+.banner{
+    background-color: green; 
+    padding: 20vh; 
+    font-size: .6rem;
+}
